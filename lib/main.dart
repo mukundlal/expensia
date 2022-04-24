@@ -1,4 +1,5 @@
 
+import 'package:expensia/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,18 +17,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text("Update 22/04/2022"),
-              Image.network("https://i.stack.imgur.com/6M513.png",
-              width: 300,height: 300,)
-            ],
-          ),
+      home: const Scaffold(
+        body: SpashScreen(),
         ),
-      ),
     );
   }
 }
