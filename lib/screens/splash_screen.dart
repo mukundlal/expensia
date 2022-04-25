@@ -22,8 +22,7 @@ class _SpashScreenState extends State<SpashScreen> {
               ()=>Navigator.pushReplacement(context,
               MaterialPageRoute(builder:
                   (context) =>
-                  const HomeScreen()
-              )
+                  const HomeScreen())
 
       );
     });
